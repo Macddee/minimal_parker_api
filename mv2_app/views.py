@@ -16,8 +16,7 @@ class ProcessParking(APIView):
         duriation = request.data.get('duriation')
         parking_number = request.data.get('parking_number')
         price = request.data.get('price')
-        print("ppppppppppppppppppppppppp", price)
-        # account = Parking.objects.get(1)
+
 
         processed_parking = Parking(
             address=address,
