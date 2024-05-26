@@ -1,0 +1,1 @@
+ web: gunicorn mv2_project.wsgi
